@@ -1,4 +1,4 @@
-# pgAdminClass
+# pgAdmin for classroom environment
 I use [PostgreSQL](https://www.postgresql.org/about/) for research and teaching because it is the best DBMS ever made! I have set it up on a virtual machine running CentOS Linux and my students connect through [pgAdmin](https://www.pgadmin.org/).
 
 ## pgAdmin Issues
@@ -80,3 +80,4 @@ I added the code in `pgadmin_commons.js` script right after `("#tree").on("acitr
 ```
 /usr/lib/python2.7/site-packages/pgadmin4-web/pgadmin/static/js/generated/pgadmin_commons.js
 ```
+After restarting the web server, everything worked as expected. 
